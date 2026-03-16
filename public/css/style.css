@@ -1,0 +1,41 @@
+body {
+    background-color: #f8f9fa;
+}
+
+#businessTable th,
+#businessTable td {
+    vertical-align: middle;
+    text-align: center;
+}
+
+#businessTable td:nth-child(2),
+#businessTable td:nth-child(3),
+#businessTable td:nth-child(5) {
+    text-align: left;
+}
+
+.rating-display {
+    cursor: pointer;
+    display: inline-block;
+}
+
+.rating-display img {
+    width: 20px;
+    height: 20px;
+}
+
+#ratingStars img {
+    width: 28px;
+    height: 28px;
+}
+
+.btn-action {
+    margin: 2px;
+}
+
+.table td .avg-text {
+    display: block;
+    font-size: 12px;
+    color: #666;
+    margin-top: 4px;
+}
